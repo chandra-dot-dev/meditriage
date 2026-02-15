@@ -12,7 +12,7 @@ Follow these steps to deploy the full-stack system.
 3. Create a Clerk account and setup an application.
 
 ## Phase 2: Backend
-1. Link your `backend/` folder to **Railway**.
+1. Link your `backend/` folder to **Render**.
 2. Configure Environment Variables using the list in `DEPLOYMENT.md`.
 // turbo
 3. Deploy and verify the `/health` endpoint or equivalent.

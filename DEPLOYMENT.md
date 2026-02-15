@@ -23,14 +23,14 @@ This guide provide step-by-step instructions for deploying the MediTriage AI pla
 ## 2. Backend Deployment (Python FastAPI)
 Deploy the contents of the `backend/` directory.
 
-### Using Railway (Recommended)
-1. **Create Project**: Sign in to [Railway.app](https://railway.app) and create a **New Project**.
+### Using Render (Recommended)
+1. **Create Project**: Sign in to [Render.com](https://render.com) and create a **New Web Service**.
 2. **Connect GitHub**: Select your `meditriage` repository.
 3. **Configure Service**:
    - **Root Directory**: `backend`
    - **Environment Variables**: Add the variables listed below.
-   - **Custom Start Command** (Optional): `uvicorn main:app --host 0.0.0.0 --port $PORT`
-4. **Networking**: Railway will automatically expose the port.
+   - **Start Command**: `python -m uvicorn main:app --host 0.0.0.0 --port $PORT`
+4. **Networking**: Render will automatically expose the port based on the `$PORT` environment variable.
 
 ### Environment Variables
 Set the following variables in your hosting dashboard:
@@ -44,7 +44,7 @@ Set the following variables in your hosting dashboard:
 ### Deployment Steps
 1. **Root Directory**: `backend`
 2. **Install Commands**: `pip install -r requirements.txt`
-3. **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+3. **Start Command**: `python -m uvicorn main:app --host 0.0.0.0 --port $PORT`
 
 ---
 
