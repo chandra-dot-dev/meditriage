@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+supabase
+openai
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+scikit-learn
+pandas
+joblib

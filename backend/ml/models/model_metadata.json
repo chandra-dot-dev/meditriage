@@ -1,0 +1,35 @@
+{
+  "feature_columns": [
+    "age",
+    "gender_encoded",
+    "systolic",
+    "diastolic",
+    "heart_rate",
+    "temperature",
+    "num_symptoms",
+    "has_critical_symptom",
+    "has_moderate_symptom",
+    "has_chronic_condition",
+    "num_conditions"
+  ],
+  "risk_labels": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "department_labels": [
+    "Cardiology",
+    "Emergency",
+    "General Medicine",
+    "Neurology"
+  ],
+  "risk_accuracy": 0.9365,
+  "department_accuracy": 0.7605,
+  "training_samples": 8000,
+  "test_samples": 2000,
+  "models": [
+    "RandomForest(200 trees)",
+    "GradientBoosting(150 trees)"
+  ],
+  "ensemble": "VotingClassifier (soft vote)"
+}
