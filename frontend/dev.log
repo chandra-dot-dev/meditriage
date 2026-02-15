@@ -1,0 +1,52 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.137.1:3000
+- Environments: .env.local, .env
+
+✓ Starting...
+✓ Ready in 1780ms
+ GET / 200 in 1691ms (compile: 1051ms, proxy.ts: 270ms, render: 370ms)
+ GET / 200 in 140ms (compile: 25ms, proxy.ts: 17ms, render: 98ms)
+ GET /login 200 in 314ms (compile: 160ms, proxy.ts: 13ms, render: 142ms)
+ GET /signup 200 in 168ms (compile: 110ms, proxy.ts: 11ms, render: 47ms)
+ GET /login?next=%2Fdoctor 200 in 80ms (compile: 8ms, proxy.ts: 9ms, render: 62ms)
+ POST /signup 303 in 2.9s (compile: 12ms, proxy.ts: 15ms, render: 2.9s)
+ GET /login?error=Email+not+confirmed 200 in 84ms (compile: 7ms, proxy.ts: 12ms, render: 65ms)
+ POST /login?next=%2Fdoctor 303 in 1174ms (compile: 6ms, proxy.ts: 13ms, render: 1155ms)
+ GET /signup 200 in 66ms (compile: 9ms, proxy.ts: 8ms, render: 48ms)
+ GET /login 200 in 62ms (compile: 8ms, proxy.ts: 11ms, render: 43ms)
+ GET / 200 in 75ms (compile: 13ms, proxy.ts: 15ms, render: 47ms)
+ GET /signup 200 in 67ms (compile: 7ms, proxy.ts: 9ms, render: 50ms)
+ GET /signup 200 in 326ms (compile: 189ms, proxy.ts: 9ms, render: 128ms)
+ GET /signup 200 in 54ms (compile: 5ms, proxy.ts: 9ms, render: 40ms)
+ GET /signup 200 in 304ms (compile: 169ms, proxy.ts: 10ms, render: 126ms)
+ GET /signup 200 in 58ms (compile: 5ms, proxy.ts: 8ms, render: 45ms)
+ GET / 200 in 161ms (compile: 8ms, proxy.ts: 12ms, render: 142ms)
+Error: Both middleware file "./middleware.ts" and proxy file "./proxy.ts" are detected. Please use "./proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection: Error: Both middleware file "./middleware.ts" and proxy file "./proxy.ts" are detected. Please use "./proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection:  Error: Both middleware file "./middleware.ts" and proxy file "./proxy.ts" are detected. Please use "./proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+Error: Both middleware file "./middleware.ts" and proxy file "./proxy.ts" are detected. Please use "./proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection: Error: Both middleware file "./middleware.ts" and proxy file "./proxy.ts" are detected. Please use "./proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+⨯ unhandledRejection:  Error: Both middleware file "./middleware.ts" and proxy file "./proxy.ts" are detected. Please use "./proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames
+✓ Compiled in 110ms
+ GET /signup 404 in 714ms (compile: 167ms, proxy.ts: 203ms, render: 344ms)
+ GET /signup 404 in 443ms (compile: 112ms, proxy.ts: 24ms, render: 307ms)
+ GET / 404 in 688ms (compile: 228ms, proxy.ts: 18ms, render: 443ms)
+ GET / 404 in 437ms (compile: 219ms, proxy.ts: 25ms, render: 193ms)
+ GET /signup 404 in 559ms (compile: 100ms, proxy.ts: 74ms, render: 385ms)
+ GET / 404 in 487ms (compile: 247ms, proxy.ts: 29ms, render: 211ms)
+ GET /signup 404 in 112ms (compile: 19ms, proxy.ts: 17ms, render: 76ms)
+ GET / 404 in 59ms (compile: 16ms, proxy.ts: 10ms, render: 32ms)
+ GET / 404 in 97ms (compile: 16ms, proxy.ts: 10ms, render: 70ms)
+ GET / 404 in 96ms (compile: 15ms, proxy.ts: 11ms, render: 70ms)
+[?25h
